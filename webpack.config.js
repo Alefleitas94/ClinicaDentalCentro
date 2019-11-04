@@ -75,7 +75,8 @@ module.exports = (env, options) => ({
             presets: ["@babel/preset-env"]
           }
         }
-      }
+      },
+      { test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000' }
     ]
   },
   plugins: [
