@@ -9,7 +9,7 @@ const path = require("path");
 const globSync = require("glob").sync;
 
 module.exports = (env, options) => ({
-  entry: ["./src/index.js"],
+  entry: ["./src/scripts/index.js"],
   devServer: {
     contentBase: "./dist"
   },
