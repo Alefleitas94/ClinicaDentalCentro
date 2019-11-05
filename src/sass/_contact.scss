@@ -1,0 +1,67 @@
+.contact{
+    height: 400px; 
+    background-color: white;
+    padding: 50px;
+}
+
+.contact-form {
+  padding: 10px;
+
+  height: 100%;
+  font-family: "Gotham-ThinItalic";
+}
+.contact-form input {
+  border-color: black;
+  opacity: 0.25;
+  border-radius: 5px;
+  margin: 7px;
+}
+.contact-form textarea {
+  height: 180px;
+  border-color: black;
+  opacity: 0.25;
+  border-radius: 5px;
+  margin: 7px;
+}
+
+.contact-text {
+  height: 200px;
+
+  #titulo {
+    font-family: "Gotham-BookItalic";
+    font-size: 40px;
+    color: black;
+  }
+  #texto {
+    font-family: "Gotham-ThinItalic";
+    opacity: 1;
+    color: black;
+  }
+}
+.contact-prov {
+  p {
+    font-family: "Gotham-Light";
+    font-size: 10px;
+  }
+  height: 200px;
+  .prov {
+    font-family: "Gotham-Medium";
+    font-size: 15px;
+  }
+  .datos {
+    font-family: "Gotham-Light";
+  }
+}
+#btn-enviar{
+    background-color:rgb(71, 125, 109);
+}
+.test-tecnologia{
+    height: 700px;
+    background-image:url("../assets/fondo-tecnologia.png");
+    background-size: cover;
+}
+.test-footer{
+    height: 170px;
+    background-color:rgb(71, 125, 109);
+
+}
