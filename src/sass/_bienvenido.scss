@@ -1,9 +1,9 @@
-.contact{
+.bienvenido{
     background-color: white;
     padding: 50px;
 }
 
-.contact-icon {
+.bienvenido-icon {
   color: white;
   display: inline-block;
   -moz-border-radius: 60px;
@@ -16,19 +16,25 @@ border: 4px solid rgb(71, 125, 109);
 background-color:rgb(71, 125, 109);
 }
 
-.contact-form {
+.bienvenido-img {
+ margin-bottom: 30px;
+
+}
+
+
+.bienvenido-form {
   padding: 10px;
 
   height: 100%;
   font-family: "Gotham-ThinItalic";
 }
-.contact-form input {
+.bienvenido-form input {
   border-color: black 0.25;
   
   border-radius: 5px;
   margin: 7px;
 }
-.contact-form textarea {
+.bienvenido-form textarea {
   resize: none;
   height: 180px;
   border-color: black 0.25;
@@ -36,7 +42,7 @@ background-color:rgb(71, 125, 109);
   margin: 7px;
 }
 
-.contact-barra {
+.bienvenido-barra {
   padding:10px;
   background-image:url("../assets/barra.png");
   background-repeat: no-repeat;
@@ -44,7 +50,7 @@ background-color:rgb(71, 125, 109);
 }
 
 
-.contact-text {
+.bienvenido-text {
   height: 200px;
 
   #titulo {
@@ -60,7 +66,7 @@ background-color:rgb(71, 125, 109);
     margin-bottom: 0;
   }
 }
-.contact-prov {
+.bienvenido-prov {
   p {
     font-family: "Gotham-Light";
     font-size: 10px;
@@ -80,9 +86,20 @@ background-color:rgb(71, 125, 109);
     color:white;
     
 }
-.test-tecnologia{
-    height: 700px;
-    background-image:url("../assets/fondo-tecnologia.png");
+.elementos{
+  position: relative;
+}
+.elementos .texto{
+  font-size: 12px;
+  font-family: "Gotham-LightItalic";
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.test-menu{
+    height: 150px;
+    background-color:rgb(71, 125, 109);
     background-size: cover;
 }
 .test-footer{
