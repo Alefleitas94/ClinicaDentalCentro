@@ -1,0 +1,136 @@
+header
+    background: url(../assets/bg-clinica.jpg)
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    .menu
+        padding: 35px 10px
+        a
+            color: #000
+            font-size: 18px
+            text-decoration: none
+            font-family: 'Gotham-BookItalic'
+            margin-right: 20px
+            border: 1px solid transparent
+            &:hover
+                border-bottom: 1px solid #222222
+    .social
+        padding: 15px 10px
+        .facebook
+            color: #fff
+            background: #116e4f
+            font-size: 18px
+            border-radius: 60%
+            padding: 4px 12px
+            margin-right: 15px
+            &:hover
+                opacity: .8
+        .whatsapp
+            color: #fff
+            background: #116e4f
+            font-size: 18px
+            border-radius: 50%
+            padding: 5px 10px
+            margin-right: 15px
+            &:hover
+                opacity: .8
+        .instagram
+            color: #fff
+            background: #116e4f
+            font-size: 18px
+            border-radius: 50%
+            padding: 5px 10px
+            margin-right: 15px
+            &:hover
+                opacity: .8
+    .slide
+        .texto-header
+            margin-top: 280px
+            margin-bottom: 200px
+            text-align: center
+            color: #fff
+            font-family: 'Gotham-Bold'
+            .parrafo-header
+                font-size: 38px
+                text-shadow: 1px 2px 1px #000
+            .btn-conoce
+                padding: 6px 20px
+                color: #fff
+                font-size: 25px
+                background: #279269
+                font-family: 'Gotham-BookItalic'
+                border: none
+                border-radius: 10px
+                margin-left: 690px
+                a
+                    text-decoration: none
+                &:hover
+                    background: #3a7e64
+
+
+
+social 
+ padding: 40px
+        .facebook, .whatsapp, .instagram
+            background: #116142
+            color: #fff
+            font-size: 16px
+            margin-right: 15px
+        .whatsapp
+            padding: 6px 8px
+            border-radius: 100%
+            &:hover
+                opacity: .8
+        .instagram
+            padding: 6px 8px
+            border-radius: 100%
+            &:hover
+                opacity: .8
+        .facebook
+            padding: 7px 10px
+            border-radius: 100%
+            font-size: 14px
+            &:hover
+                opacity: .8
+
+     .facebook, .whatsapp, .instagram
+            background: #116142
+            color: #fff
+            font-size: 16px
+            margin-right: 15px
+        .whatsapp
+            padding: 6px 8px
+            border-radius: 100%
+            &:hover
+                opacity: .8
+        .instagram
+            padding: 6px 8px
+            border-radius: 100%
+            &:hover
+                opacity: .8
+        .facebook
+            padding: 7px 10px
+            border-radius: 100%
+            font-size: 14px
+            &:hover
+                opacity: .8
+
+
+
+
+        
+.submenu
+            background: #1aa58e
+            position: absolute
+            display: none
+            margin-top: 8px
+            margin-right: -12px
+            .submenu-items
+                margin: 0 10px
+                a
+                    font-family: 'Gotham-Thin'
+                    font-size: 10px
+                    color: #fff
+                    display: block
+                    margin-bottom: 10px
+                    font-weight: 600px        
