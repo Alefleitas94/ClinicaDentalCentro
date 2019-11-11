@@ -59,26 +59,40 @@ background-color:rgb(71, 125, 109);
     font-size: 40px;
     color: black;
     margin-bottom: 0;
+    @media screen and (max-width: 834px) {
+      font-size: 25px;
+    }
   }
   #texto {
     font-family: "Gotham-ThinItalic";
     opacity: 1;
     color: black;
     margin-bottom: 0;
+    @media screen and (max-width: 834px) {
+      font-size: 20px;
+    }
   }
 }
 .contact-prov {
   p {
     font-family: "Gotham-Light";
     font-size: 10px;
+    @media screen and (max-width: 834px) {
+      font-size: 10px;
+    }
   }
   height: 200px;
   .prov {
     font-family: "Gotham-Medium";
     font-size: 15px;
+    @media screen and (max-width: 834px) {
+      font-size: 10px;
+    }
+    
   }
   .datos {
     font-family: "Gotham-Light";
+    
   }
 }
 
