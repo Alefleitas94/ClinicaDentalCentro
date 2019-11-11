@@ -1,11 +1,406 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Clinica Dental Centro</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-</head>
-<body>
-    <h1 style="font-family: 'Gotham-Book'">Hello World!</h1>
-</body>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="sass/main.scss.css" class="style" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <!-- Menu -->
+        <nav class="row navbar navbar-expand-lg navbar-light">
+          <!--Logo Brand-->
+          <div
+            class="loguito col-xs-12 col-md-3 d-flex d-md-none d-lg-none d-flex d-xl-flex"
+          >
+            <a href="/"
+              ><img class="img-logo" src="assets/cd-marca.png"
+            /></a>
+          </div>
+          <!--Fin Logo-->
+          <!--Boton Para collapse-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class=" menu col-12 col-md-6 justify-content-center collapse navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <a href="conocenos.html" class="nav-item">Conócenos</a>
+            <a href="" class="nav-item">Servicios</a>
+            <a href="" class="nav-item">Tecnología</a>
+            <a href="" class="nav-item">Contacto</a>
+            <a href="" class="nav-item"
+              ><img class="logo-ur" src="assets/urgencias-header.png" alt=""
+            /></a>
+          </div>
+          <div
+            class="social col-12 col-md-3 d-md-none d-lg-none d-flex d-xl-flex justify-content-xl-end"
+          >
+            <div class="whatsapp">
+              <i class="fab fa-whatsapp"></i>
+              <span class="enlace-wa">
+                <a href="https://wa.me/5491121754505"
+                  >BUENOS AIRES +5491121754505</a
+                >
+                <a href="https://wa.me/5493794620323"
+                  >CORRIENTES,ARG +5493794620323</a
+                >
+                <a href="https://wa.me/595994227300"
+                  >ASUNCION,PY +595994227300</a
+                >
+              </span>
+            </div>
+
+            <div class="facebook">
+              <i class="fab fa-facebook-f"></i>
+              <span class="enlace-fb">
+                <a
+                  href="https://www.facebook.com/Clinica-Dental-Centro-540601129437955/"
+                  >/clinicadentalcentroba</a
+                ><br />
+                <a
+                  href="https://www.facebook.com/Cl%C3%ADnica-Dental-Centro-Bs-As-906598209702173"
+                  >/clinicadentalcentro</a
+                ><br />
+                <a href="https://www.facebook.com/clinicadentalcentroparaguay"
+                  >/clinicadentalcentropy</a
+                >
+              </span>
+            </div>
+            <div class="instagram">
+              <i class="fab fa-instagram"></i>
+              <span class="enlace-ig">
+                <a href="https://www.instagram.com/clinicadentalcentrobsas/"
+                  >@clinicadentalcentrobsas</a
+                >
+                <a href="https://www.instagram.com/clinica_dental_centro/"
+                  >@clinica_dental_centro</a
+                >
+                <a href="https://www.instagram.com/clinicadentalcentropy/"
+                  >@clinicadentalcentropy</a
+                >
+              </span>
+            </div>
+          </div>
+        </nav>
+        <section class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-12">
+                <div class="texto-header">
+                  <p class="parrafo-header">
+                    Somos Un centro Odontológico moderno con especialistas en
+                    todos los tratamientos.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-12">
+                <button class="btn-conoce">
+                  <a href="#" class="">conocé más ></a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <section class="servicio">
+      <section class="cabecera col-lg-12 col-md-12 col-sm-12 col-12">
+        <div class="contenedor-degradado">
+          <img
+            class="imagen-fondo col-lg-12 col-md-12 col-sm-12 col-12"
+            src="assets/servicios/fondo-degradado.png"
+            alt=""
+          />
+        </div>
+
+        <div class="contenedor-texto">
+          <div class="encabezado col-lg-12 col-md-10 col-sm-11 col-11">
+            <h2 class="texto-encabezado">Servicios</h2>
+          </div>
+          <div class="detalle col-lg-12 col-md-10 col-sm-11 col-11">
+            <h3 class="texto-detalle">
+              Clínica Dental Centro ofrece solución a todas las necesidades con
+              respecto a la salud dental.
+            </h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="contenedor-imagenes">
+        <div class="contenido col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="texto">ESTÉTICA</div>
+          <img class="imagen" src="assets/servicios/caja-estetica.png" alt="" />
+        </div>
+
+        <div class="contenido col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="texto">BLANQUEAMIENTO</div>
+          <img
+            class="imagen"
+            src="assets/servicios/caja-blanqueamiento.png"
+            alt=""
+          />
+        </div>
+
+        <div class="contenido col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="texto">CIRUGÍA</div>
+          <img class="imagen" src="assets/servicios/caja-cirugia.png" alt="" />
+        </div>
+
+        <div class="contenido col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="texto">PROTESIS</div>
+          <img class="imagen" src="assets/servicios/caja-protesis.png" alt="" />
+        </div>
+
+        <div class="contenido col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="texto">IMPLANTES</div>
+          <img
+            class="imagen"
+            src="assets/servicios/caja-implantes.png"
+            alt=""
+          />
+        </div>
+
+        <div class="contenido col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="texto">ORTODONCIAS</div>
+          <img
+            class="imagen"
+            src="assets/servicios/caja-ortodoncias.png"
+            alt=""
+          />
+        </div>
+
+        <div class="contenido col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="texto">ORTOPEDIA</div>
+          <img
+            class="imagen"
+            src="assets/servicios/caja-ortopedia.png"
+            alt=""
+          />
+        </div>
+
+        <div class="contenido col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="texto">ENDODONCIA</div>
+          <img
+            class="imagen"
+            src="assets/servicios/caja-endodoncia.png"
+            alt=""
+          />
+        </div>
+
+        <div class="contenido col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="texto">RADIOGRAFÍA</div>
+          <img
+            class="imagen"
+            src="assets/servicios/caja-radiografia.png"
+            alt=""
+          />
+        </div>
+
+        <div class="contenido col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="texto">PREVENCIÓN</div>
+          <img
+            class="imagen"
+            src="assets/servicios/caja-prevencion.png"
+            alt=""
+          />
+        </div>
+
+        <div class="contenido col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="texto">NIÑOS</div>
+          <img class="imagen" src="assets/servicios/caja-niños.png" alt="" />
+        </div>
+
+        <div class="contenido col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="texto">URGENCIAS</div>
+          <img
+            class="imagen"
+            src="assets/servicios/caja-urgencias.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <section class="container col-12 tecnologia" id="tecnologia">
+        <div class="col-12 col-lg-7 tecnologia__contenedor">
+          <article class="textos">
+            <h3 clas="titulo">Tecnología</h3>
+            <p>
+              Es posible que no te hayas dado cuenta,pero en los últimos años,
+              una serie de innovaciones tecnologías han transformado la
+              odontología tal y como la conocíamos. Con las técnicas y equipos
+              actuales, los dentistas están mucho mejor equipados que hace
+              apenas una década para diagnosticas y tratar muchos problemas
+              bocudentales de una forma más rápida, menos invasiva y con un
+              confort mucho mayor para el paciente ¿Sabés qué nuevas tecnologías
+              han irrumpido en las prácticas odontologícas
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contacto">
+        <div class="container">
+          <div class="row contact">
+            <div class="col-xs-6  w-50">
+              <div class="row contact-text">
+                <div class="col-12 ">
+                  <p id="titulo">Contacto</p>
+                  <p id="texto">
+                    Aqui te brindamos los diferentes medios para contactar con
+                    nosotros,pormedio del formulario de contacto,por nuestras
+                    lineas telefonicas o redes sociales.
+                  </p>
+                  <div class="col-12 contact-barra"></div>
+                </div>
+              </div>
+
+              <div class="row contact-prov clearfix">
+                <div class="col-4 ">
+                  <p class="prov">BUENOS AIRES</p>
+                  <p>
+                    <i class="contact-icon fab fa-whatsapp fa-lg"></i>
+                    +54985946135
+                  </p>
+                  <p>
+                    <i class="contact-icon fab fa-facebook fa-lg"></i> Clinica
+                    dental centro BA
+                  </p>
+                  <p>
+                    <i class="contact-icon fab fa-instagram fa-lg"></i>
+                    @clinicadentalcentroBA
+                  </p>
+                </div>
+                <div class="col-4 ">
+                  <p class="prov">CORRIENTES, ARG</p>
+                  <p>
+                    <i class="contact-icon fab fa-whatsapp fa-lg"></i>
+                    +54985946135
+                  </p>
+                  <p>
+                    <i class="contact-icon fab fa-facebook fa-lg"></i> Clinica
+                    dental centro BA
+                  </p>
+                  <p>
+                    <i class="contact-icon fab fa-instagram fa-lg"></i>
+                    @clinica_dental_centro
+                  </p>
+                </div>
+                <div class="col-4 ">
+                  <p class="prov">PARAGUAY</p>
+                  <p>
+                    <i class="contact-icon fab fa-whatsapp fa-lg"></i>
+                    +54985946135
+                  </p>
+                  <p>
+                    <i class="contact-icon fab fa-facebook fa-lg"></i> Clinica
+                    dental centro Py
+                  </p>
+                  <p>
+                    <i class="contact-icon fab fa-instagram fa-lg"></i>
+                    @clinicadentalcentropy
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 w-50">
+              <form class="contact-form">
+                <div class="row">
+                  <div class="col">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Nombre"
+                    />
+                  </div>
+                  <div class="col">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Apellido"
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="e-mail"
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <textarea
+                      type="textarea"
+                      class="form-control"
+                      placeholder="Escribinos"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="text-right">
+                  <button id="btn-enviar" class="contact-button btn">
+                    Enviar
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <footer>
+      <div class="container d-flex align-items-center">
+        <div class="row ">
+          <div class="col-12 col-lg-3 d-flex align-items-center">
+            <img
+              class="logo-footer align-middle"
+              src="assets/cdc-marca-blanco.svg"
+              class="img-fluid"
+              alt="Responsive image"
+            />
+          </div>
+          <div class="col-12 col-lg-6 d-flex align-items-center">
+            <p>
+              <span class="align-middle"
+                >www.clinicadentalcentro.com 2019 copyright &copy; Derechos
+                Reservados</span
+              >
+            </p>
+          </div>
+          <div class="col-12 col-lg-3 d-flex align-items-center">
+            <img
+              class="imagen-24hs align-middle"
+              src="assets/urgencias-footer.png"
+              class="img-fluid"
+              alt="Responsive image"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/9b71610d8a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
