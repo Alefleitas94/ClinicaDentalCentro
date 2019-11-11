@@ -1,81 +1,171 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Clinica Dental Centro S.R.L</title>
-</head>
-
-<body>
-    <header>
-        <div class="container">
-            <!-- Menu -->
-                <nav class="row navbar navbar-expand-lg navbar-light">
-                    <!--Logo Brand-->
-                        <div class="loguito col-xs-12 col-md-3 d-flex d-md-none d-lg-none d-flex d-xl-flex">
-                            <a href="#" class=""><img class="img-logo" src="assets/cd-marca.png"></a>
-                        </div>
-                    <!--Fin Logo-->    
-                    <!--Boton Para collapse-->
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-    
-                        <div class=" menu col-12 col-md-6 justify-content-center collapse navbar-collapse" id="navbarSupportedContent"> 
-                                <a href="" class="nav-item">Conócenos</a>
-                                <a href="" class="nav-item">Servicios</a>
-                                <a href="" class="nav-item">Tecnología</a>
-                                <a href="" class="nav-item">Contacto</a>
-                                <a href="" class="nav-item"><img class="logo-ur" src="assets/urgencias-header.png" alt=""></a>
-                        </div>
-                        <div class="social col-12 col-md-3 d-md-none d-lg-none d-flex d-xl-flex justify-content-xl-end" >
-                                <div class="whatsapp"><i class="fab fa-whatsapp"></i>
-                                    <span class="enlace-wa">
-                                                <a href="https://wa.me/5491121754505">BUENOS AIRES +5491121754505</a>
-                                                <a href="https://wa.me/5493794620323">CORRIENTES,ARG +5493794620323</a>
-                                                <a href="https://wa.me/595994227300">ASUNCION,PY +595994227300</a>
-                                    </span>
-                                </div>
-                                
-                                <div class="facebook"><i class="fab fa-facebook-f"></i>
-                                    <span class="enlace-fb">
-                                            <a href="https://www.facebook.com/Clinica-Dental-Centro-540601129437955/">/clinicadentalcentroba</a><br>
-                                            <a href="https://www.facebook.com/Cl%C3%ADnica-Dental-Centro-Bs-As-906598209702173">/clinicadentalcentro</a><br>
-                                            <a href="https://www.facebook.com/clinicadentalcentroparaguay">/clinicadentalcentropy</a>
-                                    </span>
-                                </div>
-                                <div class="instagram"><i class="fab fa-instagram"></i>
-                                    <span class="enlace-ig">
-                                        <a href="https://www.instagram.com/clinicadentalcentrobsas/">@clinicadentalcentrobsas</a>
-                                        <a href="https://www.instagram.com/clinica_dental_centro/">@clinica_dental_centro</a>
-                                        <a href="https://www.instagram.com/clinicadentalcentropy/">@clinicadentalcentropy</a>
-                                    </span>
-                                </div>
-                            </div>
-                    </nav>
-        <section class="slide">
-            <div class="container">
-                 <div class="row">
-                    <div class="col-12 col-md-12">
-                        <div class="texto-header">
-                            <p class="parrafo-header"> Somos Un centro Odontológico moderno con especialistas en todos los tratamientos.</p>
-                         </div>
-                    </div>
-                    <div class="col-12 col-md-12">
-                        <button class="btn-conoce">
-                            <a href="#" class="">conocé más ></a>
-                        </button>
-                    </div>
-            </div>
-        </div>
-        </section>
-    </div>
-    </header>
-    <script src="https://kit.fontawesome.com/9b71610d8a.js" crossorigin="anonymous"></script>
-</body>
-
-</html>
+header
+    background: url('../assets/bg-clinica.jpg')
+    &.header-no-bg
+        background: none
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat 
+    .img-logo
+        width: 305px
+        height: 180px
+        margin-left: -120px
+        margin-top: -20px
+    .loguito
+    .menu
+        padding: 30px 0px
+        margin-top: -40px 
+        margin-left: -30px
+        a
+            font-size: 18px
+            font-family: 'Gotham-BookItalic'
+            text-decoration: none
+            color: #000
+            border: 1px solid transparent
+            margin-left: 60px
+            &:hover
+                text-decoration: underline
+    .social
+        padding: 20px 0px
+        margin-left: 10px
+        margin-top: -40px
+        .facebook, .whatsapp, .instagram
+            display: block
+            font-size: 15px
+            margin-left: 20px
+            background: #1aa58e
+            color: #fff
+            position: relative
+            &:hover
+                opacity: .8
+        .logo-ur
+            width: 140px 
+            height: 30px
+            &:hover
+                opacity: .8
+                cursor: pointer
+        .whatsapp
+            padding: 5px 10px
+            border-radius: 50%
+            position: relative
+            display: inline-block
+            .enlace-wa
+                visibility: hidden
+                width: 160px
+                background-color: #1aa58e
+                color: #fff
+                text-align: center
+                border-radius: 6px
+                padding: 10px 0
+                position: absolute
+                z-index: 1
+                top: 110%
+                left: 150%
+                margin-left: -60px
+                a
+                    color: #fff
+                    font-size: 7px
+                    font-family: 'Gotham-Bold'
+                &::after
+                     content: ""
+                     position: absolute
+                     bottom: 100%
+                     left: 18%
+                     margin-left: -5px
+                     border-width: 5px
+                     border-style: solid
+                     border-color: transparent transparent #1aa58e transparent
+            &:hover
+                .enlace-wa
+                    visibility: visible
+        .facebook
+            padding: 5px 12px
+            border-radius: 50%
+            position: relative
+            display: inline-block
+            .enlace-fb
+                visibility: hidden
+                width: 160px
+                background-color: #1aa58e
+                color: #fff
+                text-align: center
+                border-radius: 6px
+                padding: 10px 0
+                position: absolute
+                z-index: 1
+                top: 110%
+                left: 150%
+                margin-left: -110px
+                a
+                    color: #fff
+                    font-size: 7px
+                    font-family: 'Gotham-Bold'
+                &::after
+                     content: ""
+                     position: absolute
+                     bottom: 100%
+                     left: 48%
+                     margin-left: -5px
+                     border-width: 5px
+                     border-style: solid
+                     border-color: transparent transparent #1aa58e transparent
+            &:hover
+                .enlace-fb
+                    visibility: visible
+        .instagram
+            padding: 5px 10px
+            border-radius: 50%
+            position: relative
+            display: inline-block
+            .enlace-ig
+                visibility: hidden
+                width: 160px
+                background-color: #1aa58e
+                color: #fff
+                text-align: center
+                border-radius: 6px
+                padding: 10px 0
+                position: absolute
+                z-index: 1
+                top: 110%
+                left: 150%
+                margin-left: -160px
+                a
+                    color: #fff
+                    font-size: 7px
+                    font-family: 'Gotham-Bold'
+                &::after
+                     content: ""
+                     position: absolute
+                     bottom: 100%
+                     left: 79%
+                     margin-left: -5px
+                     border-width: 5px
+                     border-style: solid
+                     border-color: transparent transparent #1aa58e transparent
+            &:hover
+                .enlace-ig
+                    visibility: visible
+    .slide
+        .texto-header
+            margin-top: 250px
+            text-align: center
+            color: #fff
+            font-family: 'Gotham-Black'
+            .parrafo-header
+                margin-top: 5px
+                font-size: 40px
+                text-shadow: 1px 1px 5px #000
+        .btn-conoce
+            padding: 6px 20px
+            font-size: 25px
+            background: #279269
+            font-family: 'Gotham-BookItalic'
+            border: none
+            float: right
+            border-radius: 10px
+            margin-bottom: 250px
+            a
+                color: #fff
+                text-decoration: none
+            &:hover
+                background: #3a7e64

@@ -2,8 +2,15 @@
 
 @import "fonts";
 @import "variables";
-@import "_header";
+@import "header";
+@import "servicio";
+@import "tecnologia";
+@import "contacto";
+@import "bienvenido";
+@import "footer";
 
 body {
   background: #fff;
 }
+
+

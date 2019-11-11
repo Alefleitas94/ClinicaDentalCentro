@@ -1,32 +1,29 @@
 header
     background: url('../assets/bg-clinica.jpg')
+    &.header-no-bg
+        background: none
     background-position: center
     background-size: cover
     background-repeat: no-repeat 
     .img-logo
         width: 305px
         height: 180px
-        margin-left: -100px
+        margin-left: -120px
         margin-top: -20px
     .loguito
     .menu
         padding: 30px 0px
         margin-top: -40px 
+        margin-left: -30px
         a
             font-size: 18px
             font-family: 'Gotham-BookItalic'
             text-decoration: none
             color: #000
             border: 1px solid transparent
-            margin-left: 60px
+            margin-left: 50px
             &:hover
-                color: #e20b0b
-        .logo-ur
-            width: 140px 
-            height: 30px
-            &:hover
-                opacity: .8
-                cursor: pointer
+                text-decoration: underline
     .social
         padding: 20px 0px
         margin-left: 10px
@@ -40,6 +37,12 @@ header
             position: relative
             &:hover
                 opacity: .8
+        .logo-ur
+            width: 140px 
+            height: 30px
+            &:hover
+                opacity: .8
+                cursor: pointer
         .whatsapp
             padding: 5px 10px
             border-radius: 50%
@@ -158,12 +161,74 @@ header
             background: #279269
             font-family: 'Gotham-BookItalic'
             border: none
+            float: right
             border-radius: 10px
-            margin-left: 690px
             margin-bottom: 250px
             a
                 color: #fff
                 text-decoration: none
             &:hover
                 background: #3a7e64
+
+@media all and ( max-width: $screen-xs-max)
+    header
+        .img-logo
+            display: none
+        .menu
+            padding: 0px 0px
+            margin-top: 0px 
+            margin-left: 0px
+            .nav-item
+                font-size: 15px
+                font-family: 'Gotham-Book'
+                text-decoration: none
+                color: #000
+                border: 1px solid transparent
+                margin-left: 10px
+                &:hover
+                    text-decoration: underline
+        .social
+            display: none
+        .slide
+            .texto-header
+                margin-top: 150px
+                .parrafo-header
+                    margin-top: 5px
+                    font-size: 20px
+                    text-shadow: 1px 1px 5px #000
+            .btn-conoce
+                width: 103%
+                text-align: center
+                padding: 6px 20px
+                font-size: 20px
+                background: #279269
+                font-family: 'Gotham-Book'
+                border: 1px solid #fff
+                border-radius: 5px
+                margin-bottom: 150px
+                margin-top: 10px
+
+@media all and (min-width: $screen-sm-min ) and (max-width: 1023px)
+    header
+        .img-logo
+            margin-left: -77px
+            margin-top: -20px
+        .menu
+            padding: 0px 0px
+            margin-top: 0px 
+            margin-left: 0px
+            .nav-item
+                font-size: 25px
+                font-family: 'Gotham-Book'
+                text-decoration: none
+                color: #000
+                border: 1px solid transparent
+                margin-left: 10px
+                &:hover
+                    text-decoration: underline
+
+    
+
+    
+
     

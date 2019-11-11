@@ -1,0 +1,34 @@
+.tecnologia {
+    //width: 100%;
+    background: url('../assets/fondo-tecnologia.png') #d18437;
+    background-position: center 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    //background-attachment: fixed;
+
+
+    &__contenedor {
+        //width: 70%;
+        height: 750px;
+        margin: auto;
+        font-family: 'Gotham-LightItalic';
+        //padding: 30px 80px;
+        position: relative;
+    }
+
+    article {
+        text-align: justify;
+        color: #fff;
+        margin: auto;
+        padding-top: 80px;
+        position: absolute;
+        
+        h3 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 13px;
+        }
+    }
+}
