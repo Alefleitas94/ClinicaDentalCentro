@@ -53,7 +53,7 @@ header
             display: inline-block
             .enlace-wa
                 visibility: hidden
-                width: 160px
+                width: 200px
                 background-color: #1aa58e
                 color: #fff
                 text-align: center
@@ -62,11 +62,11 @@ header
                 position: absolute
                 z-index: 1
                 top: 110%
-                left: 150%
+                left: 122%
                 margin-left: -60px
                 a
                     color: #fff
-                    font-size: 7px
+                    font-size: 10px
                     font-family: 'Gotham-Bold'
                 &::after
                      content: ""
@@ -87,7 +87,7 @@ header
             display: inline-block
             .enlace-fb
                 visibility: hidden
-                width: 160px
+                width: 200px
                 background-color: #1aa58e
                 color: #fff
                 text-align: center
@@ -96,18 +96,18 @@ header
                 position: absolute
                 z-index: 1
                 top: 110%
-                left: 150%
+                left: 111%
                 margin-left: -110px
                 a
                     color: #fff
-                    font-size: 9px
+                    font-size: 12px
                     font-family: 'Gotham-Bold'
                 &::after
                      content: ""
                      position: absolute
                      bottom: 100%
                      left: 48%
-                     margin-left: -5px
+                     margin-left: -10px
                      border-width: 5px
                      border-style: solid
                      border-color: transparent transparent #1aa58e transparent
@@ -121,7 +121,7 @@ header
             display: inline-block
             .enlace-ig
                 visibility: hidden
-                width: 160px
+                width: 200px
                 background-color: #1aa58e
                 color: #fff
                 text-align: center
@@ -130,18 +130,18 @@ header
                 position: absolute
                 z-index: 1
                 top: 110%
-                left: 150%
+                left: 105%
                 margin-left: -160px
                 a
                     color: #fff
-                    font-size: 9px
+                    font-size: 12px
                     font-family: 'Gotham-Bold'
                 &::after
                      content: ""
                      position: absolute
                      bottom: 100%
                      left: 79%
-                     margin-left: -5px
+                     margin-left: -20px
                      border-width: 5px
                      border-style: solid
                      border-color: transparent transparent #1aa58e transparent
@@ -186,7 +186,12 @@ header
                 text-align: center
                 color: #000
                 border: 1px solid transparent
-                margin-left: 10px   
+                margin-left: 10px
+                &::after
+                &:hover
+                    &::after
+                        right: 0%
+                        width: 0%    
         .social
             display: none
         .slide
@@ -227,22 +232,11 @@ header
                 color: #000
                 border: 1px solid transparent
                 margin-left: 10px
-                &:hover
                 &::after
-                    content: ""
-                    width: 0%
-                    height: 3px
-                    position: absolute
-                    bottom: 0%
-                    left: 50%
-                    border-radius: 10px
-                    transition: all 500ms ease
-                    background: #119c859a
-                    transform: skew(-60deg)
                 &:hover
                     &::after
-                        left: 40%
-                        width: 20%
+                        right: 0%
+                        width: 0%
 
 @media all and ( max-width: $screen-sm-max )
     header
