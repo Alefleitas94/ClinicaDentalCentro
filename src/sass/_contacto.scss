@@ -50,35 +50,98 @@ background-color:rgb(71, 125, 109);
   height: 100%;
 }
 
-
+.contact-titulo-form{
+  font-family: "Gotham-BookItalic";
+  font-size: 40px;
+    color: black;
+    margin-bottom: 0;
+    margin-top: 5px;
+    @media screen and (max-width: 834px) {
+      font-size: 25px;
+    }
+}
 .contact-text {
   height: 200px;
-
+  @media only screen and (min-width: 300px) and (max-width: 599px) {
+    font-size: 13px;
+    height: 130px;
+  }
+  @media only screen and (max-width: 600px) {
+    font-size: 13px;
+    height: 120px;
+  }
+  @media only screen and (min-width: 768px) {
+    height: 130px;
+  }
   #titulo {
     font-family: "Gotham-BookItalic";
     font-size: 40px;
     color: black;
     margin-bottom: 0;
+    @media only screen and (max-width: 600px) {
+      font-size: 13px;
+    }
+    @media only screen and (min-width: 768px) {
+      font-size: 12px;
+    }
   }
   #texto {
     font-family: "Gotham-ThinItalic";
     opacity: 1;
     color: black;
     margin-bottom: 0;
+    @media only screen and (max-width: 600px) {
+      font-size: 12px;
+    }
+    @media only screen and (min-width: 768px) {
+      font-size: 12px;
+    }
   }
 }
 .contact-prov {
   p {
     font-family: "Gotham-Light";
-    font-size: 10px;
+    
+    @media only screen and (max-width: 600px) {
+      font-size: 8px;
+    }
+    @media only screen and (min-width: 768px) {
+      font-size: 8px;
+    }
+    @media only screen and (min-width: 992px) {
+      font-size: 9px;
+    }
+    @media only screen and (min-width: 1400px) and (max-width: 2499px) {
+      font-size: 11px;
+    }
+    @media only screen and (min-width: 2500px) {
+      font-size: 12px;
+    }
   }
   height: 200px;
   .prov {
     font-family: "Gotham-Medium";
-    font-size: 15px;
+    font-size: 12px;
+    @media only screen and (max-width: 600px) {
+      font-size: 8px;
+    }
+    @media only screen and (min-width: 768px) {
+      font-size: 8px;
+    }
+    @media only screen and (min-width: 992px) {
+      font-size: 10px;
+    }
+    @media only screen and (min-width: 1400px) and (max-width: 2499px) {
+      font-size: 11px;
+    }
+    @media only screen and (min-width: 2500px) {
+      font-size: 12px;
+    }
+    
   }
   .datos {
     font-family: "Gotham-Light";
+    
   }
 }
 
