@@ -22,19 +22,16 @@ header
             &::after
                 content: ""
                 width: 0%
-                height: 3px
-                background-color: red
+                height: 5px
                 position: absolute
                 bottom: 0%
-                left: 50%
-                border-radius: 10px
+                right: 30%
                 transition: all 500ms ease
-                background: #119c859a
-                transform: skew(-60deg)
+                background: url('../assets/underline_menu.svg')
             &:hover
                 &::after
-                    left: 0%
-                    width: 100%
+                    right: 0%
+                    width: 120%
     .social
         .facebook, .whatsapp, .instagram
             display: block
@@ -189,26 +186,7 @@ header
                 text-align: center
                 color: #000
                 border: 1px solid transparent
-                margin-left: 10px
-                &:hover
-                &::after
-                    content: ""
-                    width: 0%
-                    height: 3px
-                    background-color: red
-                    position: absolute
-                    bottom: 0%
-                    left: 50%
-                    border-radius: 10px
-                    transition: all 500ms ease
-                    background: #119c859a
-                    transform: skew(-60deg)
-                &:hover
-                    &::after
-                        left: 40%
-                        width: 20%
-               
-                       
+                margin-left: 10px   
         .social
             display: none
         .slide
@@ -254,7 +232,6 @@ header
                     content: ""
                     width: 0%
                     height: 3px
-                    background-color: red
                     position: absolute
                     bottom: 0%
                     left: 50%
