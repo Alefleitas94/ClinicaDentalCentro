@@ -6,42 +6,46 @@ header
     background-size: cover
     background-repeat: no-repeat 
     .img-logo
-        width: 305px
-        height: 180px
-        margin-left: -100px
-        margin-top: -20px
+        padding: 0px
+        width: 230px
+        height: 130px
     .loguito
     .menu
-        padding: 30px 0px
-        margin-top: -40px 
         a
+            position: relative
             font-size: 18px
             font-family: 'Gotham-BookItalic'
             text-decoration: none
             color: #000
             border: 1px solid transparent
-            margin-left: 60px
+            margin-left: 50px
+            &::after
+                content: ""
+                width: 0%
+                height: 5px
+                position: absolute
+                bottom: 0%
+                right: 30%
+                transition: all 500ms ease
+                background: url('../assets/underline_menu.svg')
             &:hover
-                color: #e20b0b
-        .logo-ur
-            width: 140px 
-            height: 30px
-            &:hover
-                opacity: .8
-                cursor: pointer
+                &::after
+                    right: 0%
+                    width: 120%
     .social
-        padding: 20px 0px
-        margin-left: 10px
-        margin-top: -40px
         .facebook, .whatsapp, .instagram
             display: block
             font-size: 15px
             margin-left: 20px
-            background: #1aa58e
+            background: #178a77
             color: #fff
             position: relative
             &:hover
-                opacity: .8
+                background: #1aa58e
+        .logo-ur
+            width: 140px 
+            height: 30px
+            margin-right: 10px
         .whatsapp
             padding: 5px 10px
             border-radius: 50%
@@ -96,7 +100,7 @@ header
                 margin-left: -110px
                 a
                     color: #fff
-                    font-size: 7px
+                    font-size: 9px
                     font-family: 'Gotham-Bold'
                 &::after
                      content: ""
@@ -130,7 +134,7 @@ header
                 margin-left: -160px
                 a
                     color: #fff
-                    font-size: 7px
+                    font-size: 9px
                     font-family: 'Gotham-Bold'
                 &::after
                      content: ""
@@ -168,5 +172,88 @@ header
                 text-decoration: none
             &:hover
                 background: #3a7e64
+
+@media all and ( max-width: $screen-xs-max)
+    header
+        .img-logo
+            width: 100px
+            height: 100px
+        .menu
+            .nav-item
+                font-size: 15px
+                font-family: 'Gotham-Light'
+                text-decoration: none
+                text-align: center
+                color: #000
+                border: 1px solid transparent
+                margin-left: 10px   
+        .social
+            display: none
+        .slide
+            .texto-header
+                margin-top: 150px
+                .parrafo-header
+                    margin-top: 5px
+                    font-size: 20px
+                    text-shadow: 1px 1px 5px #000
+            .btn-conoce
+                width: 103%
+                text-align: center
+                padding: 6px 20px
+                font-size: 20px
+                background: #279269
+                font-family: 'Gotham-Book'
+                border: 1px solid #fff
+                border-radius: 5px
+                margin-bottom: 150px
+                margin-top: 10px
+
+@media all and (min-width: $screen-sm-min ) and (max-width: 1023px)
+    header
+        .navbar-toggler
+            margin-bottom: 40px
+        .img-logo
+            margin-left: -37px
+            margin-top: -20px
+        .menu
+            padding: 0px 0px
+            margin-top: 0px 
+            margin-left: 0px
+            .nav-item
+                font-size: 20px
+                font-family: 'Gotham-Light'
+                text-decoration: none
+                text-align: center
+                color: #000
+                border: 1px solid transparent
+                margin-left: 10px
+                &:hover
+                &::after
+                    content: ""
+                    width: 0%
+                    height: 3px
+                    position: absolute
+                    bottom: 0%
+                    left: 50%
+                    border-radius: 10px
+                    transition: all 500ms ease
+                    background: #119c859a
+                    transform: skew(-60deg)
+                &:hover
+                    &::after
+                        left: 40%
+                        width: 20%
+
+@media all and ( max-width: $screen-sm-max )
+    header
+        .social
+            .logo-ur
+                display: none
+
+    
+
+    
+
+    
 
     
