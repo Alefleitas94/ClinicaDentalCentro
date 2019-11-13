@@ -66,6 +66,10 @@ background-color:rgb(71, 125, 109);
     font-size: 13px;
     height: 130px;
   }
+  @media only screen and (min-width: 600px) and (max-width: 768px){
+    font-size: 12px;
+    height: 140px;
+  }
   @media only screen and (max-width: 600px) {
     font-size: 13px;
     height: 120px;
@@ -93,6 +97,9 @@ background-color:rgb(71, 125, 109);
     @media only screen and (max-width: 600px) {
       font-size: 12px;
     }
+    @media only screen and (min-width: 600px) and (max-width: 768px){
+      font-size: 12px;
+    }
     @media only screen and (min-width: 768px) {
       font-size: 12px;
     }
@@ -102,10 +109,16 @@ background-color:rgb(71, 125, 109);
   p {
     font-family: "Gotham-Light";
     
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 399px) {
+      font-size: 6px;
+    }
+    @media only screen and (min-width: 400px) and (max-width: 600px) {
       font-size: 8px;
     }
     @media only screen and (min-width: 768px) {
+      font-size: 8px;
+    }
+    @media only screen and (min-width: 600px) and (max-width: 768px){
       font-size: 8px;
     }
     @media only screen and (min-width: 992px) {
@@ -122,10 +135,16 @@ background-color:rgb(71, 125, 109);
   .prov {
     font-family: "Gotham-Medium";
     font-size: 12px;
+    @media only screen and (max-width: 399px) {
+      font-size: 8px;
+    }
     @media only screen and (max-width: 600px) {
       font-size: 8px;
     }
     @media only screen and (min-width: 768px) {
+      font-size: 8px;
+    }
+    @media only screen and (min-width: 600px) and (max-width: 768px){
       font-size: 8px;
     }
     @media only screen and (min-width: 992px) {
@@ -145,7 +164,7 @@ background-color:rgb(71, 125, 109);
   }
 }
 
-#btn-enviar{
+.btn-enviar{
     background-color:rgb(71, 125, 109);
     color:white;
     
