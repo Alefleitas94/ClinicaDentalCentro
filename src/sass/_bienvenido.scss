@@ -23,20 +23,13 @@
   height: 200px;
   margin: 50px 50px 10px 50px;
   @media only screen and (max-width: 600px) {
-    height: 70px;
     margin: 0px;
   }
   #titulo {
     font-family: "Gotham-BookItalic";
-    font-size: 40px;
+    font-size: 2em;
     color: black;
     margin-bottom: 0;
-    @media only screen and (max-width: 600px) {
-      font-size: 12px;
-    }
-    @media only screen and (min-width: 768px) {
-      font-size: 30px;
-    }
   }
 
   .texto {
@@ -44,23 +37,10 @@
     opacity: 1;
     color: black;
     margin-bottom: 0;
-    @media only screen and (max-width: 600px) {
-      font-size: 8px;
-    }
-    @media only screen and (min-width: 768px) {
-      font-size: 13px;
-    }
-    @media only screen and (min-width: 992px) {
-      font-size: 15px;
-    }
-    @media only screen and (min-width: 1400px) and (max-width: 2499px) {
-      font-size: 18px;
-    }
-    @media only screen and (min-width: 2500px) {
-      font-size: 18px;
-    }
+    font-size: 1em;
   }
 }
+
 .bienvenido-barra {
   padding: 10px;
   background-image: url("../assets/barra2.png");
@@ -69,33 +49,23 @@
   height: 50px;
   padding-bottom: 0px;
 }
+
 .bienvenido-barra img {
   width: 100%;
 }
+
 .bienvenido-prov {
   p {
     font-family: "Gotham-Light";
-    font-size: 15px;
+    font-size: 1em;
     @media only screen and (max-width: 600px) {
       text-align: center;
-      font-size: 10px;
-    }
-    
+    }    
     
     /* Medium devices (landscape tablets, 768px and up) */
     @media only screen and (min-width: 600px) and (max-width: 760px) {
       left: 3%;
-    }
-    /* Large devices (laptops/desktops, 992px and up) */
-    @media only screen and (min-width: 760px) and (max-width: 992px) {
-      font-size: 10px;
-    }
-    /* Extra large devices (large laptops and desktops, 1200px and up) */
-    @media only screen and (min-width: 992px) and (max-width: 1200px) {
-      font-size: 12px;
-    }
-    
-    
+    }  
   }
   
   .prov {
@@ -130,81 +100,19 @@
 
 .elementos {
   position: relative;
-
-  margin-bottom: 200px;
-  @media only screen and (max-width: 600px) {
-    margin-bottom: 70px;
-  }
-  
-  @media only screen and (min-width: 760px) and (max-width: 992px) {
-    margin-bottom: 150px;
-    
-  }
-  @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    font-size: 15px;
-  }
 }
 
 .elementos .burbujas {
-  max-width: 100vw;
   z-index: 1;
-  position: absolute;
-  top: 70%;
-  left: -10%;
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
-    left: -0%;
-  }
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 600px) and (max-width: 760px) {
-    left: 3%;
-  }
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 760px) and (max-width: 992px) {
-    left: -6%;
-  }
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    left: -6%;
-  }
-  @media only screen and (min-width: 1200px) and (max-width: 1300px) {
-    left: -10%;
-  }
-  @media only screen and (min-width: 1400px) and (max-width: 2499px) {
-    left: -12%;
-  }
-  @media only screen and (min-width: 2500px) {
-    left: -43%;
-    top: 40%;
-  }
+  position: relative;
+  top: -25%;
 }
 
 .elementos .texto {
-  text-align: center;
   z-index: 2;
-  position: absolute;
-  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  font-size: 1em;
   font-family: "Gotham-LightItalic";
-  top: 120%;
-  left: 5%;
-  @media only screen and (max-width: 600px) {
-    font-size: 8px;
-  }
-  @media only screen and (min-width: 1400px) and (max-width: 2499px) {
-    font-size: 20px;
-  }
-  @media only screen and (min-width: 2500px) {
-    font-size: 20px;
-  }
-}
-
-.test-menu {
-  height: 150px;
-  background-color: rgb(71, 125, 109);
-  background-size: cover;
-}
-
-.test-footer {
-  height: 170px;
-  background-color: rgb(71, 125, 109);
+  top: -20%;
 }
