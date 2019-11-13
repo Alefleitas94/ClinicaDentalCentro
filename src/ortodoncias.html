@@ -7,50 +7,55 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="stylesheet" href="sass/main.scss.css" class="style" />
   </head>
   <body>
-    <header class= "header-no-bg">
+    <header class="header-no-bg">
       <div class="container">
         <!-- Menu -->
-        <nav class="row navbar navbar-expand-lg navbar-light">
+        <nav id="menu" class="row navbar navbar-expand-lg navbar-light">
           <!--Logo Brand-->
-          <div
-            class="loguito col-12 col-md-3 d-flex d-md-none d-lg-none d-flex d-xl-flex"
-          >
-            <a href="/"
-              ><img class="img-logo" src="assets/cd-marca.png"
-            /></a>
-          </div>
+          <a href="/" class="navbar-brand"
+            ><img class="img-logo" src="assets/logo_adaptado.svg"
+          /></a>
           <!--Fin Logo-->
           <!--Boton Para collapse-->
           <button
             class="navbar-toggler"
             type="button"
             data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-
-          <div
-            class=" menu col-12 col-md-6 justify-content-center collapse navbar-collapse"
-            id="navbarSupportedContent"
-          >
-            <a href="conocenos.html" class="nav-item">Conócenos</a>
-            <a href="" class="nav-item">Servicios</a>
-            <a href="" class="nav-item">Tecnología</a>
-            <a href="" class="nav-item">Contacto</a>
-            <a href="" class="nav-item"
-              ><img class="logo-ur" src="assets/urgencias-header.png" alt=""
-            /></a>
+          <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div
+              class="menu navbar-nav d-flex d-xl-flex justify-content-xl-start"
+              id="myNavbar"
+            >
+              <a class="nav-item" href="conocenos.html">Conócenos</a>
+              <a class="nav-item d-none d-md-block" href="#servicio"
+                >Servicios</a
+              >
+              <a class="nav-item d-block d-md-none" href="/estetica.html"
+                >Servicios</a
+              >
+              <a class="nav-item" href="#" id="back-tecnologia">Tecnología</a>
+              <a class="nav-item" href="#" id="back-contacto">Contacto</a>
+              <div class="line"></div>
+            </div>
           </div>
           <div
-            class="social col-12 col-md-3 d-md-none d-lg-none d-flex d-xl-flex justify-content-xl-end"
+            class="social d-md-none col-md-4 d-xl-flex justify-content-xl-center"
           >
+            <a href="" class="nav-item"
+              ><img
+                class="logo-ur"
+                src="assets/logo_urgencia_adaptado.svg"
+                alt=""
+            /></a>
             <div class="whatsapp">
               <i class="fab fa-whatsapp"></i>
               <span class="enlace-wa">
