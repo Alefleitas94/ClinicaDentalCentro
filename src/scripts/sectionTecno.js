@@ -5,21 +5,18 @@ $(document).ready(function(){
         var contenido = $('.textos').offset();
         contenido = contenido.top;
 
-        if (windowHeight >= contenido){
-
-            
+        if (windowHeight >= (contenido - 150)){
             $('div .textos').css({
-                opacity: 0,
-                marginTop: 0
+                //opacity: 0,
+                //marginTop: 0
                 //display: 'none'
-
             });
                 
             $('div .textos').animate({
                 opacity: 1,
                 marginTop: '-60px'
-                //display: 'block'
                 
+                //display: 'block'
             }, 1500);
             $('.container').fadeIn(500);
         }

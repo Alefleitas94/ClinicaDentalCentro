@@ -1,6 +1,6 @@
-.contact{
-    background-color: white;
-    padding: 50px;
+.contact {
+  background-color: white;
+  padding: 50px;
 }
 
 .contact-icon {
@@ -12,8 +12,8 @@
   -moz-box-shadow: 0px 0px 2px #888;
   -webkit-box-shadow: 0px 0px 2px #888;
   box-shadow: 0px 0px 2px #888;
-border: 4px solid rgb(71, 125, 109);
-background-color:rgb(71, 125, 109);
+  border: 4px solid rgb(71, 125, 109);
+  background-color: rgb(71, 125, 109);
 }
 
 .contact-form {
@@ -22,9 +22,10 @@ background-color:rgb(71, 125, 109);
   height: 100%;
   font-family: "Gotham-LightItalic";
 }
+
 .contact-form input {
   border-color: black 0.25;
-  
+
   border-radius: 5px;
   margin: 7px;
 }
@@ -36,43 +37,35 @@ background-color:rgb(71, 125, 109);
   border-radius: 5px;
   margin: 7px;
 }
+
 .contact-form ::placeholder {
   font-family: "Gotham-LightItalic";
 
   font-size: 11px;
-  color:black;
+  color: black;
 }
 
 .contact-barra {
-  padding:10px;
-  background-image:url("../assets/barra.png");
+  background-image: url("../assets/barra.png");
+  background-position: center;
   background-repeat: no-repeat;
-  height: 100%;
+  height: 10px;
 }
 
-.contact-titulo-form{
+.contact-titulo-form {
   font-family: "Gotham-BookItalic";
   font-size: 40px;
-    color: black;
-    margin-bottom: 0;
-    margin-top: 5px;
-    @media screen and (max-width: 834px) {
-      font-size: 25px;
-    }
+  color: black;
+  margin-bottom: 0;
+  margin-top: 5px;
+  @media screen and (max-width: 834px) {
+    font-size: 25px;
+  }
 }
+
 .contact-text {
-  height: 200px;
-  @media only screen and (min-width: 300px) and (max-width: 599px) {
-    font-size: 13px;
-    height: 130px;
-  }
-  @media only screen and (max-width: 600px) {
-    font-size: 13px;
-    height: 120px;
-  }
-  @media only screen and (min-width: 768px) {
-    height: 130px;
-  }
+  font-size: 1em;
+  margin-bottom: 10px;
   #titulo {
     font-family: "Gotham-BookItalic";
     font-size: 40px;
@@ -90,73 +83,23 @@ background-color:rgb(71, 125, 109);
     opacity: 1;
     color: black;
     margin-bottom: 0;
-    @media only screen and (max-width: 600px) {
-      font-size: 12px;
-    }
-    @media only screen and (min-width: 768px) {
-      font-size: 12px;
-    }
+    font-size: 1em;
   }
 }
+
 .contact-prov {
+  font-family: "Gotham-Light";
   p {
-    font-family: "Gotham-Light";
-    
-    @media only screen and (max-width: 600px) {
-      font-size: 8px;
-    }
-    @media only screen and (min-width: 768px) {
-      font-size: 8px;
-    }
-    @media only screen and (min-width: 992px) {
-      font-size: 9px;
-    }
-    @media only screen and (min-width: 1400px) and (max-width: 2499px) {
-      font-size: 11px;
-    }
-    @media only screen and (min-width: 2500px) {
-      font-size: 12px;
-    }
+    font-size: 0.8em;
   }
-  height: 200px;
   .prov {
     font-family: "Gotham-Medium";
-    font-size: 12px;
-    @media only screen and (max-width: 600px) {
-      font-size: 8px;
-    }
-    @media only screen and (min-width: 768px) {
-      font-size: 8px;
-    }
-    @media only screen and (min-width: 992px) {
-      font-size: 10px;
-    }
-    @media only screen and (min-width: 1400px) and (max-width: 2499px) {
-      font-size: 11px;
-    }
-    @media only screen and (min-width: 2500px) {
-      font-size: 12px;
-    }
-    
-  }
-  .datos {
-    font-family: "Gotham-Light";
-    
+    font-size: 0.75em;
   }
 }
 
-#btn-enviar{
-    background-color:rgb(71, 125, 109);
-    color:white;
-    
-}
-.test-tecnologia{
-    height: 700px;
-    background-image:url("../assets/fondo-tecnologia.png");
-    background-size: cover;
-}
-.test-footer{
-    height: 170px;
-    background-color:rgb(71, 125, 109);
-
+.contact-button {
+  padding-top: 10px;
+  background-color: rgb(71, 125, 109);
+  color: white;
 }

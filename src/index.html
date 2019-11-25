@@ -5,7 +5,6 @@
   <meta charset="utf-8" />
   <title>Clinica Dental Centro</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="shortcut icon" href="assets/iconos/cd-marca.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -24,7 +23,8 @@
         <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
           <div class="menu navbar-nav d-flex d-xl-flex justify-content-xl-start" id="myNavbar">
             <a class="nav-item" href="conocenos.html">Conócenos</a>
-            <a class="nav-item" href="#servicio">Servicios</a>
+            <a class="nav-item d-none d-md-block"  href="#servicio">Servicios</a>
+            <a class="nav-item d-block d-md-none"  href="/estetica.html">Servicios</a>
             <a class="nav-item" href="#tecnologia">Tecnología</a>
             <a class="nav-item" href="#contacto">Contacto</a>
             <div class="line"></div>
@@ -176,7 +176,7 @@
       <div class="contenido col-lg-2 col-md-3 col-sm-4 col-6">
         <a href="ninos.html" class="referencia">
           <div class="texto">NIÑOS</div>
-          <img class="imagen" src="assets/servicios/caja-niños.png" alt="" />
+          <img class="imagen" src="assets/servicios/caja-ninos.png" alt="" />
         </a>
       </div>
 
@@ -192,8 +192,8 @@
   <section class="container col-12 tecnologia" id="tecnologia">
     <div class="col-12 col-lg-7 tecnologia__contenedor">
       <article class="textos">
-        <h3 clas="titulo">Tecnología</h3>
-        <p>
+        <h3 class="titulo">Tecnología</h3>
+        <p class="parrafo">
           Es posible que no te hayas dado cuenta,pero en los últimos años, una
           serie de innovaciones tecnologías han transformado la odontología
           tal y como la conocíamos. Con las técnicas y equipos actuales, los
@@ -201,16 +201,16 @@
           para diagnosticas y tratar muchos problemas bocudentales de una
           forma más rápida, menos invasiva y con un confort mucho mayor para
           el paciente ¿Sabés qué nuevas tecnologías han irrumpido en las
-          prácticas odontologícas
+          prácticas odontologícas?
         </p>
       </article>
     </div>
   </section>
 
   <section class="contacto" id="contacto">
-    <div class="ibauncontainer">
+    <div class="container">
       <div class="row contact">
-        <div class="col-12 col-sm-6">
+        <div class="col-12 col-md-6">
           <div class="row contact-text">
             <div class="col-12 ">
               <p id="titulo">Contacto</p>
@@ -224,7 +224,7 @@
           </div>
 
           <div class="row contact-prov clearfix">
-            <div class="col-4 ">
+            <div class="col-12 col-sm-4">
               <p class="prov">BUENOS AIRES</p>
               <p>
                 <i class="contact-icon fab fa-whatsapp  fa-2x"></i>
@@ -239,7 +239,7 @@
                 @clinicadentalcentroBA
               </p>
             </div>
-            <div class="col-4 ">
+            <div class="col-12 col-md-4">
               <p class="prov">CORRIENTES, ARG</p>
               <p>
                 <i class="contact-icon fab fa-whatsapp fa-2x"></i>
@@ -254,7 +254,7 @@
                 @clinica_dental_centro
               </p>
             </div>
-            <div class="col-4 ">
+            <div class="col-12 col-sm-4">
               <p class="prov">PARAGUAY</p>
               <p>
                 <i class="contact-icon fab fa-whatsapp fa-2x"></i>
@@ -271,7 +271,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6">
+        <div class="col-12 col-md-6">
           <div class="row contact-titulo-form">
             <div class="d-block d-sm-none col-12 text-center">
               <p>Escribinos</p>
@@ -280,15 +280,15 @@
           <form class="contact-form">
             <div class="row">
               <div class="col">
-                <input type="text" class="form-control" placeholder="Nombre" />
+                <input type="text" class="form-control" placeholder="Nombre">
               </div>
               <div class="col">
-                <input type="text" class="form-control" placeholder="Apellido" />
+                <input type="text" class="form-control" placeholder="Apellido">
               </div>
             </div>
             <div class="row">
               <div class="col">
-                <input type="text" class="form-control" placeholder="e-mail" />
+                <input type="text" class="form-control" placeholder="e-mail">
               </div>
             </div>
             <div class="row">
@@ -297,7 +297,7 @@
               </div>
             </div>
             <div class="text-right">
-              <button id="btn-enviar" class="contact-button btn">
+              <button class="contact-button btn">
                 Enviar
               </button>
             </div>

@@ -46,7 +46,7 @@ module.exports = (env, options) => ({
         ]
       },
       {
-        test: /\.(png|jpg|gif|svg|woff|woff2|eot|ttf)$/,
+        test: /\.(png|jpg|gif|ico|svg|woff|woff2|eot|ttf)$/,
         use: [
           {
             loader: "file-loader",
@@ -87,7 +87,8 @@ module.exports = (env, options) => ({
       return new HtmlWebpackPlugin({
         template: fileName,
         inject: "body",
-        filename: fileName.replace("src/", "")
+        filename: fileName.replace("src/", ""),
+        favicon: 'favicon.ico'
       });
     }),
     new webpack.ProvidePlugin({

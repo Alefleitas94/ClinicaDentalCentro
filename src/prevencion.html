@@ -7,50 +7,55 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="stylesheet" href="sass/main.scss.css" class="style" />
   </head>
   <body>
-    <header class= "header-no-bg">
+    <header class="header-no-bg">
       <div class="container">
         <!-- Menu -->
-        <nav class="row navbar navbar-expand-lg navbar-light">
+        <nav id="menu" class="row navbar navbar-expand-lg navbar-light">
           <!--Logo Brand-->
-          <div
-            class="loguito col-12 col-md-3 d-flex d-md-none d-lg-none d-flex d-xl-flex"
-          >
-            <a href="/"
-              ><img class="img-logo" src="assets/cd-marca.png"
-            /></a>
-          </div>
+          <a href="/" class="navbar-brand"
+            ><img class="img-logo" src="assets/logo_adaptado.svg"
+          /></a>
           <!--Fin Logo-->
           <!--Boton Para collapse-->
           <button
             class="navbar-toggler"
             type="button"
             data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-
-          <div
-            class=" menu col-12 col-md-6 justify-content-center collapse navbar-collapse"
-            id="navbarSupportedContent"
-          >
-            <a href="conocenos.html" class="nav-item">Conócenos</a>
-            <a href="" class="nav-item">Servicios</a>
-            <a href="" class="nav-item">Tecnología</a>
-            <a href="" class="nav-item">Contacto</a>
-            <a href="" class="nav-item"
-              ><img class="logo-ur" src="assets/urgencias-header.png" alt=""
-            /></a>
+          <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div
+              class="menu navbar-nav d-flex d-xl-flex justify-content-xl-start"
+              id="myNavbar"
+            >
+              <a class="nav-item" href="conocenos.html">Conócenos</a>
+              <a class="nav-item d-none d-md-block" href="#servicio"
+                >Servicios</a
+              >
+              <a class="nav-item d-block d-md-none" href="/estetica.html"
+                >Servicios</a
+              >
+              <a class="nav-item" href="#" id="back-tecnologia">Tecnología</a>
+              <a class="nav-item" href="#" id="back-contacto">Contacto</a>
+              <div class="line"></div>
+            </div>
           </div>
           <div
-            class="social col-12 col-md-3 d-md-none d-lg-none d-flex d-xl-flex justify-content-xl-end"
+            class="social d-md-none col-md-4 d-xl-flex justify-content-xl-center"
           >
+            <a href="" class="nav-item"
+              ><img
+                class="logo-ur"
+                src="assets/logo_urgencia_adaptado.svg"
+                alt=""
+            /></a>
             <div class="whatsapp">
               <i class="fab fa-whatsapp"></i>
               <span class="enlace-wa">
@@ -103,7 +108,6 @@
 
     <section class="servicio">
       <section class="cabecera_servicios col-lg-12 col-md-12 col-sm-12 col-12">
-
         <div class="contenedor-texto">
           <div class="encabezado col-lg-12 col-md-10 col-sm-11 col-11">
             <h2 class="texto-encabezado">Servicios</h2>
@@ -118,121 +122,191 @@
       </section>
 
       <section class="contenedor-imagenes">
-          <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
-              <a href="estetica.html" class="referencia">
-                  <div class="texto">ESTÉTICA</div>
-                  <img class="imagen" src="assets/servicios/candidatos_0001_ESTETICA.png" alt="" />
-              </a>
-          </div>
-  
-          <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
-              <a href="blanqueamiento.html" class="referencia">
-                  <div class="texto">BLANQUEAMIENTO</div>
-                  <img class="imagen" src="assets/servicios/candidatos_0003_BLANQUEAMIENTO.png" alt=""/>
-              </a>
-          </div>
-  
-          <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
-              <a href="cirugia.html" class="referencia">
-                  <div class="texto">CIRUGÍA</div>
-                  <img class="imagen" src="assets/servicios/candidatos_0005_CIRUGIA.png" alt="" />
-              </a>
-          </div>
-  
-          <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
-              <a href="protesis.html" class="referencia">
-                  <div class="texto">PRÓTESIS</div>
-                  <img class="imagen" src="assets/servicios/candidatos_0007_PROTESIS.png" alt="" />
-              </a>
-          </div>
-  
-          <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
-              <a href="implantes.html" class="referencia">
-                  <div class="texto">IMPLANTES</div>
-                  <img class="imagen" src="assets/servicios/candidatos_0009_IMPLANTES.png" alt="" />
-              </a>
-          </div>
-  
-          <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
-              <a href="ortodoncias.html" class="referencia">
-                  <div class="texto">ORTODONCIAS</div>
-                  <img class="imagen" src="assets/servicios/candidatos_0011_ORTODONCIAS.png" alt="" />
-              </a>
-          </div>
-  
-          <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
-              <a href="ortopedia.html" class="referencia">
-                  <div class="texto">ORTOPEDIA</div>
-                  <img class="imagen" src="assets/servicios/candidatos_0013_ORTOPEDIA.png" alt=""/>
-              </a>
-          </div>
-  
-          <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
-              <a href="endodoncia.html" class="referencia">
-                  <div class="texto">ENDODONCIA</div>
-                  <img class="imagen" src="assets/servicios/candidatos_0015_ENDODONCIA.png" alt="" />
-              </a>
-          </div>
-  
-          <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
-              <a href="radiografia.html" class="referencia">
-                  <div class="texto">RADIOGRAFÍA</div>
-                  <img class="imagen" src="assets/servicios/candidatos_0017_RADIOGRAFIA-.png" alt="" />
-              </a>
-          </div>
-  
-          <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
-              <a href="#" class="referencia">
-                  <div class="texto">PREVENCIÓN</div>
-                  <img class="imagen" src="assets/servicios/candidatos_0018_PREVENCION-SOBRE.png" alt="" />
-                </a>
-              </div>
-      
-              <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
-                  <a href="ninos.html" class="referencia">
-                      <div class="texto">NIÑOS</div>
-                      <img class="imagen" src="assets/servicios/candidatos_0021_NIÑOS.png" alt="" />
-                  </a>
-              </div>
-      
-              <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
-                  <a href="urgencias.html" class="referencia">
-                      <div class="texto">URGENCIAS</div>
-                      <img class="imagen" src="assets/servicios/candidatos_0023_URGENCIAS.png" alt="" />
-                  </a>
-              </div>
+        <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
+          <a href="estetica.html" class="referencia">
+            <div class="texto">ESTÉTICA</div>
+            <img
+              class="imagen"
+              src="assets/servicios/candidatos_0001_ESTETICA.png"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
+          <a href="blanqueamiento.html" class="referencia">
+            <div class="texto">BLANQUEAMIENTO</div>
+            <img
+              class="imagen"
+              src="assets/servicios/candidatos_0003_BLANQUEAMIENTO.png"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
+          <a href="cirugia.html" class="referencia">
+            <div class="texto">CIRUGÍA</div>
+            <img
+              class="imagen"
+              src="assets/servicios/candidatos_0005_CIRUGIA.png"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
+          <a href="protesis.html" class="referencia">
+            <div class="texto">PRÓTESIS</div>
+            <img
+              class="imagen"
+              src="assets/servicios/candidatos_0007_PROTESIS.png"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
+          <a href="implantes.html" class="referencia">
+            <div class="texto">IMPLANTES</div>
+            <img
+              class="imagen"
+              src="assets/servicios/candidatos_0009_IMPLANTES.png"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
+          <a href="ortodoncias.html" class="referencia">
+            <div class="texto">ORTODONCIAS</div>
+            <img
+              class="imagen"
+              src="assets/servicios/candidatos_0011_ORTODONCIAS.png"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
+          <a href="ortopedia.html" class="referencia">
+            <div class="texto">ORTOPEDIA</div>
+            <img
+              class="imagen"
+              src="assets/servicios/candidatos_0013_ORTOPEDIA.png"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
+          <a href="endodoncia.html" class="referencia">
+            <div class="texto">ENDODONCIA</div>
+            <img
+              class="imagen"
+              src="assets/servicios/candidatos_0015_ENDODONCIA.png"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
+          <a href="radiografia.html" class="referencia">
+            <div class="texto">RADIOGRAFÍA</div>
+            <img
+              class="imagen"
+              src="assets/servicios/candidatos_0017_RADIOGRAFIA-.png"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
+          <a href="#" class="referencia">
+            <div class="texto">PREVENCIÓN</div>
+            <img
+              class="imagen"
+              src="assets/servicios/candidatos_0018_PREVENCION-SOBRE.png"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
+          <a href="ninos.html" class="referencia">
+            <div class="texto">NIÑOS</div>
+            <img
+              class="imagen"
+              src="assets/servicios/candidatos_0021_NINOS.png"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="contenido_reducido col-lg-2 col-md-3 col-sm-4 col-6">
+          <a href="urgencias.html" class="referencia">
+            <div class="texto">URGENCIAS</div>
+            <img
+              class="imagen"
+              src="assets/servicios/candidatos_0023_URGENCIAS.png"
+              alt=""
+            />
+          </a>
+        </div>
       </section>
     </section>
 
     <section class="informacion">
-
       <div class="detalle_informacion">
-
-        <div><h3 class="encabezado_blanqueamiento col-lg-12 col-md-12 col-sm-12 col-11">Prevención bucal</h3></div>
+        <div>
+          <h3
+            class="encabezado_blanqueamiento col-lg-12 col-md-12 col-sm-12 col-11"
+          >
+            Prevención bucal
+          </h3>
+        </div>
         <div class="texto_blanqueamiento col-lg-12 col-md-11 col-sm-12 col-11">
-          <p>Contamos con un Programa de prevención bucal de última generación, cuyo objetivo es proteger los dientes en niños y pacientes especiales.</p>
+          <p>
+            Contamos con un Programa de prevención bucal de última generación,
+            cuyo objetivo es proteger los dientes en niños y pacientes
+            especiales.
+          </p>
         </div>
 
-        <div><h3 class="encabezado_blanqueamiento col-lg-12 col-md-12 col-sm-12 col-11">Periodoncia</h3></div>
+        <div>
+          <h3
+            class="encabezado_blanqueamiento col-lg-12 col-md-12 col-sm-12 col-11"
+          >
+            Periodoncia
+          </h3>
+        </div>
         <div class="texto_blanqueamiento col-lg-12 col-md-11 col-sm-12 col-11">
-          <p>Prevenimos y tratamos las enfermedades de todos los tejidos que rodean al diente.</p>
+          <p>
+            Prevenimos y tratamos las enfermedades de todos los tejidos que
+            rodean al diente.
+          </p>
         </div>
       </div>
 
       <div class="imagen_blanqueamiento ">
-
-        <div><img class="imagen_principal col-lg-12 col-md-12 col-sm-12 col-12" src="assets/servicios/PREVENCION.jpg" alt=""></div>
-        <div><img class="imagen_superpuesta col-lg-12 col-md-12 col-sm-12 col-12" src="assets/elementos.png" alt=""></div>
-
+        <div>
+          <img
+            class="imagen_principal col-lg-12 col-md-12 col-sm-12 col-12"
+            src="assets/servicios/PREVENCION.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="imagen_superpuesta col-lg-12 col-md-12 col-sm-12 col-12"
+            src="assets/elementos.png"
+            alt=""
+          />
+        </div>
       </div>
-
     </section>
 
-    <section class="imgaen_pie">
-
-
-
-    </section>
+    <section class="imgaen_pie"></section>
 
     <footer>
       <div class="container d-flex align-items-center">

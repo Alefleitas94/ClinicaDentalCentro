@@ -1,8 +1,9 @@
 .tecnologia {
     //width: 100%;
     background: url('../assets/fondo-tecnologia.png') #d18437;
-    background-position: center 0;
-    background-size: 100% 100%;
+    background-position: center;
+    background-size: cover;
+    //background-size: 100% 100%;
     background-repeat: no-repeat;
     //background-attachment: fixed;
 
@@ -16,19 +17,22 @@
         position: relative;
     }
 
-    article {
+    .textos {
         text-align: justify;
         color: #fff;
         margin: auto;
         padding-top: 80px;
         position: absolute;
+        opacity: 0;
+        margin-top: 0;
         
-        h3 {
+        .titulo {
             font-size: 30px;
             margin-bottom: 15px;
+            font-weight: bold;
         }
-        p {
-            font-size: 13px;
+        .parrafo {
+            font-size: 1em;
         }
     }
 }
